@@ -1,0 +1,9 @@
+{
+    "transformers_positive": {
+      "ForWhileTransformer": 1,
+      "OperandSwap": 1,
+      "DeadCodeInserter": 1,
+      "VarRenamerBase": 1,
+      "PriorityTrans":1
+    }
+  }

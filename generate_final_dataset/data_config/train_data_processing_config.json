@@ -1,0 +1,20 @@
+{
+  "transformers_positive": {
+    "ForWhileTransformer": 1,
+    "OperandSwap": 1,
+    "DeadCodeInserter": 1,
+    "VarRenamerBase": 1,
+    "PriorityTrans":1
+  },
+  "transformers_negative":{
+    "BooleanBugs": 1,
+    "ConditionBugs": 1,
+    "FunctionargsBugs": 1,
+    "InputBugs":1,
+    "IndexBugs": 1,
+    "OperatorBugs":1,
+    "PriorityBugs":1,
+    "RangeBugs":1,
+    "VarmodifyBugs":1
+  }
+}
