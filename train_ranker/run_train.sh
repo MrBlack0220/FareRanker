@@ -1,7 +1,7 @@
   python -m torch.distributed.launch --nproc_per_node 4 --master_port='29500' --use_env run_ranker.py \
-    --train_data_path ../generate_final_data/datasets/coderl/train/genaration_8_translation_8_tokenizedata \
-    --dev_data_path ../generate_final_data/datasets/coderl/eval/translation_2_tokenizedata.pkl \
-    --test_data_path ../generate_final_data/datasets/coderl/test/translation_2_tokenizedata.pkl \
+    --train_data_path ../generate_final_dataset/datasets/coderl/train/genaration_8_translation_8_tokenizedata \
+    --dev_data_path ../generate_final_dataset/datasets/coderl/eval/translation_2_tokenizedata.pkl \
+    --test_data_path ../generate_final_dataset/datasets/coderl/test/translation_2_tokenizedata.pkl \
     --do_train True --do_eval True --do_predict True --prediction_loss_only False \
     --per_device_train_batch_size 2 --per_device_eval_batch_size 100\
     --gradient_accumulation_steps 64 \
