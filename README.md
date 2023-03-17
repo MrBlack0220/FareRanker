@@ -49,7 +49,7 @@ cd ../generate_final_dataset
 python dataset.py
 ```
 ## Train FareRanker
-Finally, you can train Semranker by running:
+Finally, you can train FareRanker by running:
 ```
 cd ../train_ranker
 bash run_train.sh
